@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    >* {
+        margin-bottom: $m-size;
+    }
+}
+
+.form__error {
+    margin: 0 0 $m-size 0;
+    font-style:italic;
+}
+
+.extra-changes {
+    display: flex;
+}
+
+.btn {
+    margin-left: 40px !important;
+    width: 60rem;
+    height: 40px !important;
+}
+
+
+.btn-c {
+    margin-left: 40px !important;
+    width: 60rem;
+    height: 40px !important;
+    background:rgba(255, 0, 64, 0.925);
+    border: none;
+    border-radius:30px;
+    color:white;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.btn-c:hover {
+    background:rgb(76, 0, 255);
+}

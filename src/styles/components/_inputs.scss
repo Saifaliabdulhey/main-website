@@ -1,0 +1,53 @@
+.text-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-larg;
+    font-weight: 300;
+    padding: $s-size;
+    width: 65rem;
+    border-radius:30px;
+    box-shadow: 0 0 1px 1px #8e2de2;
+}
+
+.select {
+    height: 50px;
+    border-radius:30px;
+    padding: $s-size;
+    font-weight: 300;
+    font-size: $font-size-larg;
+    width: 25rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    background: #6919ff; /* fallback for old browsers */
+
+    option {
+        background: #8e2de2; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4a00e0, #8e2de2);
+    }
+}
+
+
+.textarea {
+    height: 30rem;
+    border-radius: 30px;
+    text-indent: 20px;
+    width: 65rem;
+    padding: 10px;
+    border: 1px solid #6e00fd;
+    font-size: $font-size-larg;
+}
+
+.search-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-larg;
+    font-weight: 300;
+    padding: $s-size;
+    background:none;
+    width: 60rem;
+    border-radius:30px;
+    outline:#6e00fd;
+    color:#fff;
+}

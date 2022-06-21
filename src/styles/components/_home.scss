@@ -1,0 +1,52 @@
+.home {
+    position: relative;
+    overflow: hidden;
+}
+
+.active1 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+    font-size: large;
+    background: #ff00cc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #333399,
+        #ff00cc
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 20px;
+    transition: all 0.3s;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.link1 {
+    top: 00px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 600;
+    font-size: large;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    padding: 5px 20px;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+._all {
+    margin: 0;
+}
+
+.all_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:150px;
+}
+
